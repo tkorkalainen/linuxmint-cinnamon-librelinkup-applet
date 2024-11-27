@@ -2,6 +2,8 @@
 
 A Linux Mint Cinnamon applet that fetches your glucose level from **LibreLinkUp** and displays it on a panel.
 
+![sreenshot](https://raw.githubusercontent.com/tkorkalainen/linuxmint-cinnamon-librelinkup-applet/refs/heads/master/docs/screenshot.png)
+
 ## Features
 - Fetches near real-time glucose data from your LibreLinkUp account.
 - Displays the data in a panel applet.
