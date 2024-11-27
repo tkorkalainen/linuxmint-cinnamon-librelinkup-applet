@@ -1,0 +1,12 @@
+{
+    "uuid": "librelinkup@tkorkalainen",
+    "name": "LibreLinkUp",
+    "description": "Fetches your blood sugar level from LibreLinkUp and displays it on a panel.",
+    "version": "1.0.0",
+    "max-instances": 1,
+    "cinnamon-version": [
+        "6.0"
+    ],
+    "author": "tkorkalainen",
+    "last-edited": 1732722716
+}

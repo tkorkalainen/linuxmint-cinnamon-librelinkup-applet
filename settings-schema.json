@@ -1,0 +1,84 @@
+{
+  "options-header": {
+    "type": "header",
+    "description": "LibreLinkUp API"
+  },
+  "api-update-interval": {
+    "type": "scale",
+    "default": 2,
+    "min": 1,
+    "max": 10,
+    "step": 1,
+    "description": "Update interval (minutes):"
+  },
+  "api-username": {
+    "type": "entry",
+    "default": "",
+    "description": "Username (email) for LibreLinkUp user:"
+  },
+  "api-password": {
+    "type": "entry",
+    "default": "",
+    "description": "Password for LibreLinkUp user:"
+  },
+  "api-region": {
+    "type": "radiogroup",
+    "default": "eu",
+    "description": "Region for LibreLinkUp user:",
+    "options": {
+      "European Union": "eu",
+      "United States": "us"
+    }
+  },
+  "options-separator": {
+    "type": "separator"
+  },
+  "display-header": {
+    "type": "header",
+    "description": "Display"
+  },
+  "color-low": {
+    "type": "colorchooser",
+    "default": "rgba(237,51,59,1)",
+    "description": "Color for low glucose"
+  },
+  "color-normal": {
+    "type": "colorchooser",
+    "default": "rgba(51,209,122,1)",
+    "description": "Color for normal glucose"
+  },
+  "color-high": {
+    "type": "colorchooser",
+    "default": "rgba(246,211,45,1)",
+    "description": "Color for high glucose"
+  },
+  "color-very-high": {
+    "type": "colorchooser",
+    "default": "rgba(255,120,0,1)",
+    "description": "Color for very high glucose"
+  },
+  "value-low": {
+    "type": "spinbutton",
+    "default": 4.0,
+    "min": 0.0,
+    "max": 1000.0,
+    "step": 0.1,
+    "description": "Max value for low glucose"
+  },
+  "value-normal": {
+    "type": "spinbutton",
+    "default": 10.0,
+    "min": 0.0,
+    "max": 1000.0,
+    "step": 0.1,
+    "description": "Max value for normal glucose"
+  },
+  "value-high": {
+    "type": "spinbutton",
+    "default": 20.0,
+    "min": 0.0,
+    "max": 1000.0,
+    "step": 0.1,
+    "description": "Max value for high glucose"
+  }
+}
